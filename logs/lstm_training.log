@@ -1,0 +1,430 @@
+LSTM Model Training Log
+============================================================
+Start Time: 2025-12-09 23:40:44
+
+Epoch 1/25
+  Train Loss: 1.1345, Train Acc: 47.26%
+  Val Loss: 1.0982, Val Acc: 53.95%, Val F1: 0.3404
+  Time: 7.60s
+
+Epoch 2/25
+  Train Loss: 0.9909, Train Acc: 56.44%
+  Val Loss: 0.9732, Val Acc: 55.65%, Val F1: 0.3684
+  Time: 4.24s
+
+Epoch 3/25
+  Train Loss: 0.8863, Train Acc: 63.22%
+  Val Loss: 0.8809, Val Acc: 62.99%, Val F1: 0.4241
+  Time: 4.45s
+
+Epoch 4/25
+  Train Loss: 0.8164, Train Acc: 66.17%
+  Val Loss: 0.9488, Val Acc: 61.86%, Val F1: 0.4464
+  Time: 4.33s
+
+Epoch 5/25
+  Train Loss: 0.7611, Train Acc: 67.32%
+  Val Loss: 0.8339, Val Acc: 66.67%, Val F1: 0.4696
+  Time: 4.29s
+
+Epoch 6/25
+  Train Loss: 0.7026, Train Acc: 71.51%
+  Val Loss: 0.9369, Val Acc: 63.56%, Val F1: 0.4347
+  Time: 4.21s
+
+Epoch 7/25
+  Train Loss: 0.6579, Train Acc: 74.15%
+  Val Loss: 0.8635, Val Acc: 66.67%, Val F1: 0.5279
+  Time: 3.89s
+
+Epoch 8/25
+  Train Loss: 0.6171, Train Acc: 74.50%
+  Val Loss: 0.9940, Val Acc: 64.69%, Val F1: 0.5250
+  Time: 3.85s
+
+Epoch 9/25
+  Train Loss: 0.5719, Train Acc: 77.40%
+  Val Loss: 0.9478, Val Acc: 65.54%, Val F1: 0.5060
+  Time: 4.22s
+
+Epoch 10/25
+  Train Loss: 0.4974, Train Acc: 80.69%
+  Val Loss: 1.0274, Val Acc: 65.82%, Val F1: 0.5081
+  Time: 4.47s
+
+Epoch 11/25
+  Train Loss: 0.4730, Train Acc: 80.99%
+  Val Loss: 1.0178, Val Acc: 68.93%, Val F1: 0.5434
+  Time: 4.06s
+
+Epoch 12/25
+  Train Loss: 0.4476, Train Acc: 81.84%
+  Val Loss: 1.0855, Val Acc: 66.95%, Val F1: 0.5168
+  Time: 4.34s
+
+Epoch 13/25
+  Train Loss: 0.4283, Train Acc: 82.63%
+  Val Loss: 1.0971, Val Acc: 66.95%, Val F1: 0.5153
+  Time: 4.56s
+
+Epoch 14/25
+  Train Loss: 0.3911, Train Acc: 85.08%
+  Val Loss: 1.1525, Val Acc: 66.38%, Val F1: 0.5182
+  Time: 4.58s
+
+Epoch 15/25
+  Train Loss: 0.3713, Train Acc: 85.83%
+  Val Loss: 1.2016, Val Acc: 66.95%, Val F1: 0.5288
+  Time: 4.18s
+
+Epoch 16/25
+  Train Loss: 0.3861, Train Acc: 84.68%
+  Val Loss: 1.1518, Val Acc: 65.82%, Val F1: 0.5138
+  Time: 4.45s
+
+Epoch 17/25
+  Train Loss: 0.3522, Train Acc: 85.98%
+  Val Loss: 1.1286, Val Acc: 66.67%, Val F1: 0.5168
+  Time: 4.46s
+
+Epoch 18/25
+  Train Loss: 0.3454, Train Acc: 86.93%
+  Val Loss: 1.1379, Val Acc: 68.36%, Val F1: 0.5387
+  Time: 4.39s
+
+
+Early stopping at epoch 18
+
+Total Training Time: 1.35 minutes
+Best Validation F1: 0.5434
+2025-12-10 01:02:06,588 - INFO - ======================================================================
+2025-12-10 01:02:06,648 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-10 01:02:06,649 - INFO - ======================================================================
+2025-12-10 01:02:06,661 - INFO - Model Configuration: {'vocab_size': 2351, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-10 01:02:06,661 - INFO - Total parameters: 866,912
+2025-12-10 01:02:29,920 - INFO - ======================================================================
+2025-12-10 01:02:29,920 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-10 01:02:29,920 - INFO - ======================================================================
+2025-12-10 01:02:29,937 - INFO - Model Configuration: {'vocab_size': 2351, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-10 01:02:29,939 - INFO - Total parameters: 866,912
+2025-12-10 01:02:29,947 - INFO - Training started: 20 epochs
+2025-12-10 01:02:36,172 - INFO - Epoch 1: Train Loss=1.3734, Val Loss=1.3525, Val F1=0.3601
+2025-12-10 01:02:36,189 - INFO - Best model saved at epoch 1 with F1: 0.3601
+2025-12-10 01:02:41,403 - INFO - Epoch 2: Train Loss=1.2600, Val Loss=1.4231, Val F1=0.3765
+2025-12-10 01:02:41,404 - INFO - Best model saved at epoch 2 with F1: 0.3765
+2025-12-10 01:02:46,918 - INFO - Epoch 3: Train Loss=1.0805, Val Loss=1.3565, Val F1=0.4239
+2025-12-10 01:02:46,933 - INFO - Best model saved at epoch 3 with F1: 0.4239
+2025-12-10 01:02:52,091 - INFO - Epoch 4: Train Loss=0.9261, Val Loss=1.4760, Val F1=0.4706
+2025-12-10 01:02:52,106 - INFO - Best model saved at epoch 4 with F1: 0.4706
+2025-12-10 01:02:57,495 - INFO - Epoch 5: Train Loss=0.7976, Val Loss=1.3863, Val F1=0.4339
+2025-12-10 01:03:03,147 - INFO - Epoch 6: Train Loss=0.6876, Val Loss=1.5743, Val F1=0.4937
+2025-12-10 01:03:03,151 - INFO - Best model saved at epoch 6 with F1: 0.4937
+2025-12-10 01:03:08,818 - INFO - Epoch 7: Train Loss=0.6070, Val Loss=1.5492, Val F1=0.5066
+2025-12-10 01:03:08,830 - INFO - Best model saved at epoch 7 with F1: 0.5066
+2025-12-10 01:03:14,256 - INFO - Epoch 8: Train Loss=0.6180, Val Loss=1.4640, Val F1=0.5315
+2025-12-10 01:03:14,286 - INFO - Best model saved at epoch 8 with F1: 0.5315
+2025-12-10 01:03:19,573 - INFO - Epoch 9: Train Loss=0.4748, Val Loss=1.7226, Val F1=0.5058
+2025-12-10 01:03:24,900 - INFO - Epoch 10: Train Loss=0.4878, Val Loss=1.8814, Val F1=0.4981
+2025-12-10 01:03:30,169 - INFO - Epoch 11: Train Loss=0.4241, Val Loss=1.6350, Val F1=0.4890
+2025-12-10 01:03:35,528 - INFO - Epoch 12: Train Loss=0.3731, Val Loss=1.9620, Val F1=0.5025
+2025-12-10 01:03:40,833 - INFO - Epoch 13: Train Loss=0.3437, Val Loss=1.9948, Val F1=0.5126
+2025-12-10 01:03:40,833 - INFO - Early stopping at epoch 13
+2025-12-10 01:03:40,833 - INFO - Training completed in 1.2 minutes
+2025-12-10 01:03:41,756 - INFO - ======================================================================
+2025-12-10 01:03:41,757 - INFO - Training Summary: Best F1=0.5315, Epochs=13
+2025-12-10 01:03:41,757 - INFO - ======================================================================
+2025-12-10 01:31:26,990 - INFO - ======================================================================
+2025-12-10 01:31:26,990 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-10 01:31:26,991 - INFO - ======================================================================
+2025-12-10 01:31:27,089 - INFO - Model Configuration: {'vocab_size': 2351, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-10 01:31:27,090 - INFO - Total parameters: 866,912
+2025-12-10 01:31:42,405 - INFO - Training started: 20 epochs
+2025-12-10 01:31:47,541 - INFO - Epoch 1: Train Loss=1.3662, Val Loss=1.3606, Val F1=0.2952
+2025-12-10 01:31:47,793 - INFO - Best model saved at epoch 1 with F1: 0.2952
+2025-12-10 01:31:52,605 - INFO - Epoch 2: Train Loss=1.2465, Val Loss=1.3382, Val F1=0.3950
+2025-12-10 01:31:52,620 - INFO - Best model saved at epoch 2 with F1: 0.3950
+2025-12-10 01:31:57,252 - INFO - Epoch 3: Train Loss=1.0174, Val Loss=1.4333, Val F1=0.4446
+2025-12-10 01:31:57,263 - INFO - Best model saved at epoch 3 with F1: 0.4446
+2025-12-10 01:32:01,856 - INFO - Epoch 4: Train Loss=0.8462, Val Loss=1.4496, Val F1=0.3930
+2025-12-10 01:32:06,416 - INFO - Epoch 5: Train Loss=0.8341, Val Loss=1.6725, Val F1=0.3983
+2025-12-10 01:32:10,910 - INFO - Epoch 6: Train Loss=0.7371, Val Loss=1.4468, Val F1=0.4731
+2025-12-10 01:32:10,922 - INFO - Best model saved at epoch 6 with F1: 0.4731
+2025-12-10 01:32:15,675 - INFO - Epoch 7: Train Loss=0.6462, Val Loss=1.5627, Val F1=0.4857
+2025-12-10 01:32:15,687 - INFO - Best model saved at epoch 7 with F1: 0.4857
+2025-12-10 01:32:20,389 - INFO - Epoch 8: Train Loss=0.5429, Val Loss=1.8166, Val F1=0.4605
+2025-12-10 01:32:25,044 - INFO - Epoch 9: Train Loss=0.4922, Val Loss=1.7563, Val F1=0.5067
+2025-12-10 01:32:25,056 - INFO - Best model saved at epoch 9 with F1: 0.5067
+2025-12-10 01:32:29,939 - INFO - Epoch 10: Train Loss=0.5057, Val Loss=2.0597, Val F1=0.5055
+2025-12-10 01:32:34,788 - INFO - Epoch 11: Train Loss=0.4229, Val Loss=2.0939, Val F1=0.4782
+2025-12-10 01:32:39,564 - INFO - Epoch 12: Train Loss=0.3915, Val Loss=2.2426, Val F1=0.4758
+2025-12-10 01:32:44,441 - INFO - Epoch 13: Train Loss=0.3416, Val Loss=2.4350, Val F1=0.4811
+2025-12-10 01:32:49,141 - INFO - Epoch 14: Train Loss=0.3284, Val Loss=2.4273, Val F1=0.4647
+2025-12-10 01:32:49,141 - INFO - Early stopping at epoch 14
+2025-12-10 01:32:49,142 - INFO - Training completed in 1.1 minutes
+2025-12-10 01:32:49,943 - INFO - ======================================================================
+2025-12-10 01:32:49,944 - INFO - Training Summary: Best F1=0.5067, Epochs=14
+2025-12-10 01:32:49,944 - INFO - ======================================================================
+2025-12-10 01:54:52,911 - INFO - ======================================================================
+2025-12-10 01:54:52,914 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-10 01:54:52,916 - INFO - ======================================================================
+2025-12-10 01:54:52,923 - INFO - Model Configuration: {'vocab_size': 3077, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-10 01:54:52,924 - INFO - Total parameters: 939,512
+2025-12-10 01:54:52,927 - INFO - Training started: 20 epochs
+2025-12-10 01:55:00,837 - INFO - Epoch 1: Train Loss=1.3672, Val Loss=1.3139, Val F1=0.3346
+2025-12-10 01:55:00,853 - INFO - Best model saved at epoch 1 with F1: 0.3346
+2025-12-10 01:55:08,643 - INFO - Epoch 2: Train Loss=1.2152, Val Loss=1.1477, Val F1=0.4167
+2025-12-10 01:55:08,656 - INFO - Best model saved at epoch 2 with F1: 0.4167
+2025-12-10 01:55:16,232 - INFO - Epoch 3: Train Loss=1.0684, Val Loss=1.1902, Val F1=0.4458
+2025-12-10 01:55:16,269 - INFO - Best model saved at epoch 3 with F1: 0.4458
+2025-12-10 01:55:23,844 - INFO - Epoch 4: Train Loss=0.9381, Val Loss=1.1520, Val F1=0.4911
+2025-12-10 01:55:23,861 - INFO - Best model saved at epoch 4 with F1: 0.4911
+2025-12-10 01:55:31,486 - INFO - Epoch 5: Train Loss=0.8483, Val Loss=1.2750, Val F1=0.4843
+2025-12-10 01:55:39,279 - INFO - Epoch 6: Train Loss=0.7878, Val Loss=1.1731, Val F1=0.5278
+2025-12-10 01:55:39,293 - INFO - Best model saved at epoch 6 with F1: 0.5278
+2025-12-10 01:55:47,605 - INFO - Epoch 7: Train Loss=0.7596, Val Loss=1.4802, Val F1=0.4322
+2025-12-10 01:55:55,565 - INFO - Epoch 8: Train Loss=0.7351, Val Loss=1.2949, Val F1=0.5035
+2025-12-10 01:56:03,409 - INFO - Epoch 9: Train Loss=0.6231, Val Loss=1.3016, Val F1=0.5171
+2025-12-10 01:56:11,291 - INFO - Epoch 10: Train Loss=0.5681, Val Loss=1.4331, Val F1=0.5564
+2025-12-10 01:56:11,305 - INFO - Best model saved at epoch 10 with F1: 0.5564
+2025-12-10 01:56:20,288 - INFO - Epoch 11: Train Loss=0.5274, Val Loss=1.4971, Val F1=0.5295
+2025-12-10 01:56:28,645 - INFO - Epoch 12: Train Loss=0.5050, Val Loss=1.5646, Val F1=0.5368
+2025-12-10 01:56:36,781 - INFO - Epoch 13: Train Loss=0.4658, Val Loss=1.7129, Val F1=0.5109
+2025-12-10 01:56:44,756 - INFO - Epoch 14: Train Loss=0.4565, Val Loss=1.7491, Val F1=0.5104
+2025-12-10 01:56:52,636 - INFO - Epoch 15: Train Loss=0.4343, Val Loss=1.7536, Val F1=0.5122
+2025-12-10 01:56:52,637 - INFO - Early stopping at epoch 15
+2025-12-10 01:56:52,638 - INFO - Training completed in 2.0 minutes
+2025-12-10 01:56:53,515 - INFO - ======================================================================
+2025-12-10 01:56:53,515 - INFO - Training Summary: Best F1=0.5564, Epochs=15
+2025-12-10 01:56:53,516 - INFO - ======================================================================
+2025-12-11 01:39:01,311 - INFO - ======================================================================
+2025-12-11 01:39:01,394 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-11 01:39:01,396 - INFO - ======================================================================
+2025-12-11 01:39:01,497 - INFO - Model Configuration: {'vocab_size': 3077, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-11 01:39:01,498 - INFO - Total parameters: 939,512
+2025-12-11 01:39:17,636 - INFO - Training started: 20 epochs
+2025-12-11 01:39:26,052 - INFO - Epoch 1: Train Loss=1.3672, Val Loss=1.3139, Val F1=0.3346
+2025-12-11 01:39:26,183 - INFO - Best model saved at epoch 1 with F1: 0.3346
+2025-12-11 01:39:33,534 - INFO - Epoch 2: Train Loss=1.2152, Val Loss=1.1477, Val F1=0.4167
+2025-12-11 01:39:33,547 - INFO - Best model saved at epoch 2 with F1: 0.4167
+2025-12-11 01:39:40,767 - INFO - Epoch 3: Train Loss=1.0684, Val Loss=1.1902, Val F1=0.4458
+2025-12-11 01:39:40,855 - INFO - Best model saved at epoch 3 with F1: 0.4458
+2025-12-11 01:39:48,123 - INFO - Epoch 4: Train Loss=0.9381, Val Loss=1.1520, Val F1=0.4911
+2025-12-11 01:39:48,139 - INFO - Best model saved at epoch 4 with F1: 0.4911
+2025-12-11 01:39:55,561 - INFO - Epoch 5: Train Loss=0.8483, Val Loss=1.2750, Val F1=0.4843
+2025-12-11 01:40:02,820 - INFO - Epoch 6: Train Loss=0.7878, Val Loss=1.1731, Val F1=0.5278
+2025-12-11 01:40:02,833 - INFO - Best model saved at epoch 6 with F1: 0.5278
+2025-12-11 01:40:10,492 - INFO - Epoch 7: Train Loss=0.7596, Val Loss=1.4802, Val F1=0.4322
+2025-12-11 01:40:17,984 - INFO - Epoch 8: Train Loss=0.7351, Val Loss=1.2949, Val F1=0.5035
+2025-12-11 01:40:25,363 - INFO - Epoch 9: Train Loss=0.6231, Val Loss=1.3016, Val F1=0.5171
+2025-12-11 01:40:32,810 - INFO - Epoch 10: Train Loss=0.5681, Val Loss=1.4331, Val F1=0.5564
+2025-12-11 01:40:32,824 - INFO - Best model saved at epoch 10 with F1: 0.5564
+2025-12-11 01:40:40,331 - INFO - Epoch 11: Train Loss=0.5274, Val Loss=1.4971, Val F1=0.5295
+2025-12-11 01:40:47,775 - INFO - Epoch 12: Train Loss=0.5050, Val Loss=1.5646, Val F1=0.5368
+2025-12-11 01:40:55,201 - INFO - Epoch 13: Train Loss=0.4658, Val Loss=1.7129, Val F1=0.5109
+2025-12-11 01:41:02,567 - INFO - Epoch 14: Train Loss=0.4565, Val Loss=1.7491, Val F1=0.5104
+2025-12-11 01:41:09,914 - INFO - Epoch 15: Train Loss=0.4343, Val Loss=1.7536, Val F1=0.5122
+2025-12-11 01:41:09,914 - INFO - Early stopping at epoch 15
+2025-12-11 01:41:09,915 - INFO - Training completed in 1.9 minutes
+2025-12-11 01:41:10,924 - INFO - ======================================================================
+2025-12-11 01:41:10,924 - INFO - Training Summary: Best F1=0.5564, Epochs=15
+2025-12-11 01:41:10,925 - INFO - ======================================================================
+2025-12-11 10:47:44,499 - INFO - ======================================================================
+2025-12-11 10:47:44,550 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-11 10:47:44,550 - INFO - ======================================================================
+2025-12-11 10:47:44,933 - INFO - Model Configuration: {'vocab_size': 3077, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-11 10:47:44,933 - INFO - Total parameters: 939,512
+2025-12-11 10:48:00,416 - INFO - Training started: 20 epochs
+2025-12-11 10:48:10,564 - INFO - Epoch 1: Train Loss=1.3672, Val Loss=1.3139, Val F1=0.3346
+2025-12-11 10:48:10,666 - INFO - Best model saved at epoch 1 with F1: 0.3346
+2025-12-11 10:48:18,933 - INFO - Epoch 2: Train Loss=1.2152, Val Loss=1.1477, Val F1=0.4167
+2025-12-11 10:48:18,952 - INFO - Best model saved at epoch 2 with F1: 0.4167
+2025-12-11 10:48:27,483 - INFO - Epoch 3: Train Loss=1.0684, Val Loss=1.1902, Val F1=0.4458
+2025-12-11 10:48:27,500 - INFO - Best model saved at epoch 3 with F1: 0.4458
+2025-12-11 10:48:35,883 - INFO - Epoch 4: Train Loss=0.9381, Val Loss=1.1520, Val F1=0.4911
+2025-12-11 10:48:35,883 - INFO - Best model saved at epoch 4 with F1: 0.4911
+2025-12-11 10:48:44,183 - INFO - Epoch 5: Train Loss=0.8483, Val Loss=1.2750, Val F1=0.4843
+2025-12-11 10:48:52,533 - INFO - Epoch 6: Train Loss=0.7878, Val Loss=1.1731, Val F1=0.5278
+2025-12-11 10:48:52,550 - INFO - Best model saved at epoch 6 with F1: 0.5278
+2025-12-11 10:49:01,150 - INFO - Epoch 7: Train Loss=0.7596, Val Loss=1.4802, Val F1=0.4322
+2025-12-11 10:49:09,650 - INFO - Epoch 8: Train Loss=0.7351, Val Loss=1.2949, Val F1=0.5035
+2025-12-11 10:49:18,200 - INFO - Epoch 9: Train Loss=0.6231, Val Loss=1.3016, Val F1=0.5171
+2025-12-11 10:49:26,633 - INFO - Epoch 10: Train Loss=0.5681, Val Loss=1.4331, Val F1=0.5564
+2025-12-11 10:49:26,650 - INFO - Best model saved at epoch 10 with F1: 0.5564
+2025-12-11 10:49:35,284 - INFO - Epoch 11: Train Loss=0.5274, Val Loss=1.4971, Val F1=0.5295
+2025-12-11 10:49:43,767 - INFO - Epoch 12: Train Loss=0.5050, Val Loss=1.5646, Val F1=0.5368
+2025-12-11 10:49:52,067 - INFO - Epoch 13: Train Loss=0.4658, Val Loss=1.7129, Val F1=0.5109
+2025-12-11 10:50:00,533 - INFO - Epoch 14: Train Loss=0.4565, Val Loss=1.7491, Val F1=0.5104
+2025-12-11 10:50:08,917 - INFO - Epoch 15: Train Loss=0.4343, Val Loss=1.7536, Val F1=0.5122
+2025-12-11 10:50:08,917 - INFO - Early stopping at epoch 15
+2025-12-11 10:50:08,917 - INFO - Training completed in 2.1 minutes
+2025-12-11 10:50:09,783 - INFO - ======================================================================
+2025-12-11 10:50:09,783 - INFO - Training Summary: Best F1=0.5564, Epochs=15
+2025-12-11 10:50:09,783 - INFO - ======================================================================
+2025-12-13 03:37:48,409 - INFO - ======================================================================
+2025-12-13 03:37:48,581 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-13 03:37:48,581 - INFO - ======================================================================
+2025-12-13 03:37:48,786 - INFO - Model Configuration: {'vocab_size': 3077, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-13 03:37:48,786 - INFO - Total parameters: 939,512
+2025-12-13 03:38:16,409 - INFO - Training started: 20 epochs
+2025-12-13 03:38:30,226 - INFO - Epoch 1: Train Loss=1.3672, Val Loss=1.3139, Val F1=0.3346
+2025-12-13 03:38:30,463 - INFO - Best model saved at epoch 1 with F1: 0.3346
+2025-12-13 03:38:39,011 - INFO - Epoch 2: Train Loss=1.2152, Val Loss=1.1477, Val F1=0.4167
+2025-12-13 03:38:39,026 - INFO - Best model saved at epoch 2 with F1: 0.4167
+2025-12-13 03:38:47,792 - INFO - Epoch 3: Train Loss=1.0684, Val Loss=1.1902, Val F1=0.4458
+2025-12-13 03:38:47,793 - INFO - Best model saved at epoch 3 with F1: 0.4458
+2025-12-13 03:38:56,579 - INFO - Epoch 4: Train Loss=0.9381, Val Loss=1.1520, Val F1=0.4911
+2025-12-13 03:38:56,609 - INFO - Best model saved at epoch 4 with F1: 0.4911
+2025-12-13 03:39:05,927 - INFO - Epoch 5: Train Loss=0.8483, Val Loss=1.2750, Val F1=0.4843
+2025-12-13 03:39:14,724 - INFO - Epoch 6: Train Loss=0.7878, Val Loss=1.1731, Val F1=0.5278
+2025-12-13 03:39:14,909 - INFO - Best model saved at epoch 6 with F1: 0.5278
+2025-12-13 03:39:24,093 - INFO - Epoch 7: Train Loss=0.7596, Val Loss=1.4802, Val F1=0.4322
+2025-12-13 03:39:33,786 - INFO - Epoch 8: Train Loss=0.7351, Val Loss=1.2949, Val F1=0.5035
+2025-12-13 03:39:43,788 - INFO - Epoch 9: Train Loss=0.6231, Val Loss=1.3016, Val F1=0.5171
+2025-12-13 03:39:53,871 - INFO - Epoch 10: Train Loss=0.5681, Val Loss=1.4331, Val F1=0.5564
+2025-12-13 03:39:53,885 - INFO - Best model saved at epoch 10 with F1: 0.5564
+2025-12-13 03:40:03,808 - INFO - Epoch 11: Train Loss=0.5274, Val Loss=1.4971, Val F1=0.5295
+2025-12-13 03:40:13,310 - INFO - Epoch 12: Train Loss=0.5050, Val Loss=1.5646, Val F1=0.5368
+2025-12-13 03:40:22,971 - INFO - Epoch 13: Train Loss=0.4658, Val Loss=1.7129, Val F1=0.5109
+2025-12-13 03:40:33,509 - INFO - Epoch 14: Train Loss=0.4565, Val Loss=1.7491, Val F1=0.5104
+2025-12-13 03:40:44,491 - INFO - Epoch 15: Train Loss=0.4343, Val Loss=1.7536, Val F1=0.5122
+2025-12-13 03:40:44,491 - INFO - Early stopping at epoch 15
+2025-12-13 03:40:44,493 - INFO - Training completed in 2.5 minutes
+2025-12-13 03:40:45,594 - INFO - ======================================================================
+2025-12-13 03:40:45,596 - INFO - Training Summary: Best F1=0.5564, Epochs=15
+2025-12-13 03:40:45,597 - INFO - ======================================================================
+2025-12-14 21:57:54,846 - INFO - ======================================================================
+2025-12-14 21:57:54,889 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-14 21:57:54,890 - INFO - ======================================================================
+2025-12-14 21:57:55,172 - INFO - Model Configuration: {'vocab_size': 3077, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-14 21:57:55,172 - INFO - Total parameters: 939,512
+2025-12-14 21:58:31,630 - INFO - Training started: 20 epochs
+2025-12-14 21:58:45,777 - INFO - Epoch 1: Train Loss=1.3672, Val Loss=1.3139, Val F1=0.3346
+2025-12-14 21:58:45,989 - INFO - Best model saved at epoch 1 with F1: 0.3346
+2025-12-14 21:58:54,254 - INFO - Epoch 2: Train Loss=1.2152, Val Loss=1.1477, Val F1=0.4167
+2025-12-14 21:58:54,278 - INFO - Best model saved at epoch 2 with F1: 0.4167
+2025-12-14 21:59:01,772 - INFO - Epoch 3: Train Loss=1.0684, Val Loss=1.1902, Val F1=0.4458
+2025-12-14 21:59:01,787 - INFO - Best model saved at epoch 3 with F1: 0.4458
+2025-12-14 21:59:09,224 - INFO - Epoch 4: Train Loss=0.9381, Val Loss=1.1520, Val F1=0.4911
+2025-12-14 21:59:09,254 - INFO - Best model saved at epoch 4 with F1: 0.4911
+2025-12-14 21:59:17,603 - INFO - Epoch 5: Train Loss=0.8483, Val Loss=1.2750, Val F1=0.4843
+2025-12-14 21:59:26,404 - INFO - Epoch 6: Train Loss=0.7878, Val Loss=1.1731, Val F1=0.5278
+2025-12-14 21:59:26,454 - INFO - Best model saved at epoch 6 with F1: 0.5278
+2025-12-14 21:59:34,520 - INFO - Epoch 7: Train Loss=0.7596, Val Loss=1.4802, Val F1=0.4322
+2025-12-14 21:59:42,216 - INFO - Epoch 8: Train Loss=0.7351, Val Loss=1.2949, Val F1=0.5035
+2025-12-14 21:59:50,588 - INFO - Epoch 9: Train Loss=0.6231, Val Loss=1.3016, Val F1=0.5171
+2025-12-14 21:59:59,345 - INFO - Epoch 10: Train Loss=0.5681, Val Loss=1.4331, Val F1=0.5564
+2025-12-14 21:59:59,360 - INFO - Best model saved at epoch 10 with F1: 0.5564
+2025-12-14 22:00:08,687 - INFO - Epoch 11: Train Loss=0.5274, Val Loss=1.4971, Val F1=0.5295
+2025-12-14 22:00:16,036 - INFO - Epoch 12: Train Loss=0.5050, Val Loss=1.5646, Val F1=0.5368
+2025-12-14 22:00:24,103 - INFO - Epoch 13: Train Loss=0.4658, Val Loss=1.7129, Val F1=0.5109
+2025-12-14 22:00:31,637 - INFO - Epoch 14: Train Loss=0.4565, Val Loss=1.7491, Val F1=0.5104
+2025-12-14 22:00:38,863 - INFO - Epoch 15: Train Loss=0.4343, Val Loss=1.7536, Val F1=0.5122
+2025-12-14 22:00:38,879 - INFO - Early stopping at epoch 15
+2025-12-14 22:00:38,879 - INFO - Training completed in 2.1 minutes
+2025-12-14 22:00:39,735 - INFO - ======================================================================
+2025-12-14 22:00:39,735 - INFO - Training Summary: Best F1=0.5564, Epochs=15
+2025-12-14 22:00:39,735 - INFO - ======================================================================
+2025-12-14 22:29:18,670 - INFO - ======================================================================
+2025-12-14 22:29:18,670 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-14 22:29:18,670 - INFO - ======================================================================
+2025-12-14 22:29:18,687 - INFO - Model Configuration: {'vocab_size': 3077, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-14 22:29:18,687 - INFO - Total parameters: 939,512
+2025-12-14 22:29:27,681 - INFO - Training started: 20 epochs
+2025-12-14 22:29:36,972 - INFO - Epoch 1: Train Loss=1.3672, Val Loss=1.3139, Val F1=0.3346
+2025-12-14 22:29:36,998 - INFO - Best model saved at epoch 1 with F1: 0.3346
+2025-12-14 22:29:46,453 - INFO - Epoch 2: Train Loss=1.2152, Val Loss=1.1477, Val F1=0.4167
+2025-12-14 22:29:46,474 - INFO - Best model saved at epoch 2 with F1: 0.4167
+2025-12-14 22:29:55,499 - INFO - Epoch 3: Train Loss=1.0684, Val Loss=1.1902, Val F1=0.4458
+2025-12-14 22:29:55,515 - INFO - Best model saved at epoch 3 with F1: 0.4458
+2025-12-14 22:30:04,474 - INFO - Epoch 4: Train Loss=0.9381, Val Loss=1.1520, Val F1=0.4911
+2025-12-14 22:30:04,486 - INFO - Best model saved at epoch 4 with F1: 0.4911
+2025-12-14 22:30:13,479 - INFO - Epoch 5: Train Loss=0.8483, Val Loss=1.2750, Val F1=0.4843
+2025-12-14 22:30:22,705 - INFO - Epoch 6: Train Loss=0.7878, Val Loss=1.1731, Val F1=0.5278
+2025-12-14 22:30:22,720 - INFO - Best model saved at epoch 6 with F1: 0.5278
+2025-12-14 22:30:31,570 - INFO - Epoch 7: Train Loss=0.7596, Val Loss=1.4802, Val F1=0.4322
+2025-12-14 22:30:41,022 - INFO - Epoch 8: Train Loss=0.7351, Val Loss=1.2949, Val F1=0.5035
+2025-12-14 22:30:50,673 - INFO - Epoch 9: Train Loss=0.6231, Val Loss=1.3016, Val F1=0.5171
+2025-12-14 22:31:01,056 - INFO - Epoch 10: Train Loss=0.5681, Val Loss=1.4331, Val F1=0.5564
+2025-12-14 22:31:01,075 - INFO - Best model saved at epoch 10 with F1: 0.5564
+2025-12-14 22:31:11,636 - INFO - Epoch 11: Train Loss=0.5274, Val Loss=1.4971, Val F1=0.5295
+2025-12-14 22:31:21,343 - INFO - Epoch 12: Train Loss=0.5050, Val Loss=1.5646, Val F1=0.5368
+2025-12-14 22:31:30,289 - INFO - Epoch 13: Train Loss=0.4658, Val Loss=1.7129, Val F1=0.5109
+2025-12-14 22:31:38,949 - INFO - Epoch 14: Train Loss=0.4565, Val Loss=1.7491, Val F1=0.5104
+2025-12-14 22:31:47,800 - INFO - Epoch 15: Train Loss=0.4343, Val Loss=1.7536, Val F1=0.5122
+2025-12-14 22:31:47,800 - INFO - Early stopping at epoch 15
+2025-12-14 22:31:47,801 - INFO - Training completed in 2.3 minutes
+2025-12-14 22:31:48,670 - INFO - ======================================================================
+2025-12-14 22:31:48,671 - INFO - Training Summary: Best F1=0.5564, Epochs=15
+2025-12-14 22:31:48,672 - INFO - ======================================================================
+2025-12-14 22:54:04,897 - INFO - ======================================================================
+2025-12-14 22:54:04,897 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-14 22:54:04,898 - INFO - ======================================================================
+2025-12-14 22:54:04,902 - INFO - Model Configuration: {'vocab_size': 2351, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-14 22:54:04,902 - INFO - Total parameters: 866,912
+2025-12-14 22:54:04,911 - INFO - Training started: 20 epochs
+2025-12-14 22:54:10,551 - INFO - Epoch 1: Train Loss=1.3662, Val Loss=1.3606, Val F1=0.2952
+2025-12-14 22:54:10,566 - INFO - Best model saved at epoch 1 with F1: 0.2952
+2025-12-14 22:54:16,743 - INFO - Epoch 2: Train Loss=1.2465, Val Loss=1.3382, Val F1=0.3950
+2025-12-14 22:54:16,752 - INFO - Best model saved at epoch 2 with F1: 0.3950
+2025-12-14 22:54:25,910 - INFO - ======================================================================
+2025-12-14 22:54:25,911 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-14 22:54:25,912 - INFO - ======================================================================
+2025-12-14 22:54:25,920 - INFO - Model Configuration: {'vocab_size': 2351, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-14 22:54:25,920 - INFO - Total parameters: 866,912
+2025-12-14 22:54:25,920 - INFO - Training started: 20 epochs
+2025-12-14 22:54:31,674 - INFO - Epoch 1: Train Loss=1.3662, Val Loss=1.3606, Val F1=0.2952
+2025-12-14 22:54:31,690 - INFO - Best model saved at epoch 1 with F1: 0.2952
+2025-12-14 22:54:37,551 - INFO - Epoch 2: Train Loss=1.2465, Val Loss=1.3382, Val F1=0.3950
+2025-12-14 22:54:37,551 - INFO - Best model saved at epoch 2 with F1: 0.3950
+2025-12-14 22:54:43,085 - INFO - Epoch 3: Train Loss=1.0174, Val Loss=1.4333, Val F1=0.4446
+2025-12-14 22:54:43,101 - INFO - Best model saved at epoch 3 with F1: 0.4446
+2025-12-14 22:54:48,688 - INFO - Epoch 4: Train Loss=0.8462, Val Loss=1.4496, Val F1=0.3930
+2025-12-14 22:54:54,284 - INFO - Epoch 5: Train Loss=0.8341, Val Loss=1.6725, Val F1=0.3983
+2025-12-14 22:54:59,949 - INFO - Epoch 6: Train Loss=0.7371, Val Loss=1.4468, Val F1=0.4731
+2025-12-14 22:54:59,961 - INFO - Best model saved at epoch 6 with F1: 0.4731
+2025-12-14 22:55:05,888 - INFO - Epoch 7: Train Loss=0.6462, Val Loss=1.5627, Val F1=0.4857
+2025-12-14 22:55:05,903 - INFO - Best model saved at epoch 7 with F1: 0.4857
+2025-12-14 22:55:11,922 - INFO - Epoch 8: Train Loss=0.5429, Val Loss=1.8166, Val F1=0.4605
+2025-12-14 22:55:18,103 - INFO - Epoch 9: Train Loss=0.4922, Val Loss=1.7563, Val F1=0.5067
+2025-12-14 22:55:18,119 - INFO - Best model saved at epoch 9 with F1: 0.5067
+2025-12-14 22:55:24,119 - INFO - Epoch 10: Train Loss=0.5057, Val Loss=2.0597, Val F1=0.5055
+2025-12-14 22:55:30,047 - INFO - Epoch 11: Train Loss=0.4229, Val Loss=2.0939, Val F1=0.4782
+2025-12-14 22:55:36,373 - INFO - Epoch 12: Train Loss=0.3915, Val Loss=2.2426, Val F1=0.4758
+2025-12-14 22:55:42,425 - INFO - Epoch 13: Train Loss=0.3416, Val Loss=2.4350, Val F1=0.4811
+2025-12-14 22:55:48,094 - INFO - Epoch 14: Train Loss=0.3284, Val Loss=2.4273, Val F1=0.4647
+2025-12-14 22:55:48,095 - INFO - Early stopping at epoch 14
+2025-12-14 22:55:48,096 - INFO - Training completed in 1.4 minutes
+2025-12-14 22:55:48,916 - INFO - ======================================================================
+2025-12-14 22:55:48,917 - INFO - Training Summary: Best F1=0.5067, Epochs=14
+2025-12-14 22:55:48,918 - INFO - ======================================================================
+2025-12-16 23:25:13,344 - INFO - ======================================================================
+2025-12-16 23:25:13,423 - INFO - LSTM MODEL (4 CLASSES) - TRAINING STARTED
+2025-12-16 23:25:13,423 - INFO - ======================================================================
+2025-12-16 23:25:13,694 - INFO - Model Configuration: {'vocab_size': 2351, 'embedding_dim': 100, 'hidden_dim': 128, 'output_dim': 4, 'n_layers': 2, 'dropout': 0.3, 'pad_idx': 0}
+2025-12-16 23:25:13,694 - INFO - Total parameters: 866,912
+2025-12-16 23:25:27,899 - INFO - Training started: 20 epochs
+2025-12-16 23:25:35,448 - INFO - Epoch 1: Train Loss=1.3662, Val Loss=1.3606, Val F1=0.2952
+2025-12-16 23:25:35,598 - INFO - Best model saved at epoch 1 with F1: 0.2952
+2025-12-16 23:25:40,832 - INFO - Epoch 2: Train Loss=1.2465, Val Loss=1.3382, Val F1=0.3950
+2025-12-16 23:25:40,848 - INFO - Best model saved at epoch 2 with F1: 0.3950
+2025-12-16 23:25:45,999 - INFO - Epoch 3: Train Loss=1.0174, Val Loss=1.4333, Val F1=0.4446
+2025-12-16 23:25:46,023 - INFO - Best model saved at epoch 3 with F1: 0.4446
+2025-12-16 23:25:51,126 - INFO - Epoch 4: Train Loss=0.8462, Val Loss=1.4496, Val F1=0.3930
+2025-12-16 23:25:56,199 - INFO - Epoch 5: Train Loss=0.8341, Val Loss=1.6725, Val F1=0.3983
+2025-12-16 23:26:01,299 - INFO - Epoch 6: Train Loss=0.7371, Val Loss=1.4468, Val F1=0.4731
+2025-12-16 23:26:01,318 - INFO - Best model saved at epoch 6 with F1: 0.4731
+2025-12-16 23:26:06,532 - INFO - Epoch 7: Train Loss=0.6462, Val Loss=1.5627, Val F1=0.4857
+2025-12-16 23:26:06,548 - INFO - Best model saved at epoch 7 with F1: 0.4857
+2025-12-16 23:26:11,799 - INFO - Epoch 8: Train Loss=0.5429, Val Loss=1.8166, Val F1=0.4605
+2025-12-16 23:26:17,049 - INFO - Epoch 9: Train Loss=0.4922, Val Loss=1.7563, Val F1=0.5067
+2025-12-16 23:26:17,065 - INFO - Best model saved at epoch 9 with F1: 0.5067
+2025-12-16 23:26:22,648 - INFO - Epoch 10: Train Loss=0.5057, Val Loss=2.0597, Val F1=0.5055
+2025-12-16 23:26:28,132 - INFO - Epoch 11: Train Loss=0.4229, Val Loss=2.0939, Val F1=0.4782
+2025-12-16 23:26:33,349 - INFO - Epoch 12: Train Loss=0.3915, Val Loss=2.2426, Val F1=0.4758
+2025-12-16 23:26:38,632 - INFO - Epoch 13: Train Loss=0.3416, Val Loss=2.4350, Val F1=0.4811
+2025-12-16 23:26:43,925 - INFO - Epoch 14: Train Loss=0.3284, Val Loss=2.4273, Val F1=0.4647
+2025-12-16 23:26:43,926 - INFO - Early stopping at epoch 14
+2025-12-16 23:26:43,926 - INFO - Training completed in 1.3 minutes
+2025-12-16 23:26:44,782 - INFO - ======================================================================
+2025-12-16 23:26:44,782 - INFO - Training Summary: Best F1=0.5067, Epochs=14
+2025-12-16 23:26:44,782 - INFO - ======================================================================

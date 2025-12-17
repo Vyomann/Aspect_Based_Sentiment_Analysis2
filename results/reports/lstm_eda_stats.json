@@ -1,0 +1,35 @@
+{
+    "total_samples": 2358,
+    "num_classes": 4,
+    "classes": [
+        "positive",
+        "negative",
+        "neutral",
+        "conflict"
+    ],
+    "class_distribution": {
+        "positive": 987,
+        "negative": 866,
+        "neutral": 460,
+        "conflict": 45
+    },
+    "sentence_length": {
+        "mean": 19.31552162849873,
+        "median": 17.0,
+        "min": 2,
+        "max": 78,
+        "std": 10.620168209966119
+    },
+    "top_10_aspects": {
+        "screen": 58,
+        "price": 55,
+        "use": 53,
+        "battery life": 52,
+        "battery": 45,
+        "keyboard": 43,
+        "programs": 36,
+        "software": 33,
+        "features": 32,
+        "warranty": 31
+    }
+}

@@ -1,0 +1,13 @@
+LSTM MODEL (4 CLASSES) - CLASSIFICATION REPORT
+======================================================================
+
+              precision    recall  f1-score   support
+
+    conflict       0.20      0.14      0.17         7
+    negative       0.66      0.72      0.69       130
+     neutral       0.48      0.57      0.52        69
+    positive       0.79      0.68      0.73       148
+
+    accuracy                           0.66       354
+   macro avg       0.53      0.52      0.52       354
+weighted avg       0.67      0.66      0.66       354

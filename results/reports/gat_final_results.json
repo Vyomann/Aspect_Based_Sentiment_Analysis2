@@ -1,0 +1,59 @@
+{
+    "model": "GAT",
+    "vocab_size": 2341,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "num_heads": 4,
+    "dropout": 0.4,
+    "num_epochs_trained": 25,
+    "best_epoch": 17,
+    "train_samples": 2004,
+    "val_samples": 354,
+    "val_accuracy": 70.05649717514125,
+    "val_f1_macro": 0.5041099404619809,
+    "per_class_f1": {
+        "conflict": 0.0,
+        "negative": 0.7441860465116279,
+        "neutral": 0.5245901639344263,
+        "positive": 0.7476635514018691
+    },
+    "per_class_precision": {
+        "conflict": 0.0,
+        "negative": 0.75,
+        "neutral": 0.6037735849056604,
+        "positive": 0.6936416184971098
+    },
+    "per_class_recall": {
+        "conflict": 0.0,
+        "negative": 0.7384615384615385,
+        "neutral": 0.463768115942029,
+        "positive": 0.8108108108108109
+    },
+    "confusion_matrix": [
+        [
+            0,
+            2,
+            1,
+            4
+        ],
+        [
+            0,
+            96,
+            6,
+            28
+        ],
+        [
+            0,
+            16,
+            32,
+            21
+        ],
+        [
+            0,
+            14,
+            14,
+            120
+        ]
+    ],
+    "training_time_minutes": 1.2650028705596923
+}

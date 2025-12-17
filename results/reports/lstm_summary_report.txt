@@ -1,0 +1,69 @@
+
+LSTM-BASED ASPECT-BASED SENTIMENT ANALYSIS
+============================================================
+
+MODEL CONFIGURATION
+============================================================
+Architecture      : Bi-directional LSTM with Attention
+Vocabulary Size   : 3,093
+Embedding Dim     : 128
+Hidden Dim        : 128
+LSTM Layers       : 2
+Dropout           : 0.4
+Total Parameters  : 1,089,541
+
+TRAINING CONFIGURATION
+============================================================
+Batch Size        : 32
+Max Epochs        : 25
+Epochs Trained    : 18
+Learning Rate     : 0.001
+Early Stopping    : Yes (Patience: 7)
+Training Time     : 1.35 minutes
+
+DATASET STATISTICS
+============================================================
+Training Samples  : 2,004
+Validation Samples: 354
+Max Seq Length    : 50
+Num Classes       : 4
+
+FINAL RESULTS
+============================================================
+Best Epoch        : 11
+Val Loss          : 1.0178
+Val Accuracy      : 68.93%
+Val F1 (Macro)    : 0.5434
+
+PER-CLASS F1 SCORES
+============================================================
+conflict       : 0.1538
+negative       : 0.7252
+neutral        : 0.5522
+positive       : 0.7425
+
+FILES SAVED
+============================================================
+Model:
+  - ../models/lstm/best_lstm_model.pth
+
+Figures:
+  - ../results/figures/lstm/eda_complete.png
+  - ../results/figures/lstm/training_history.png
+  - ../results/figures/lstm/confusion_matrix.png
+  - ../results/figures/lstm/metrics_comparison.png
+
+Reports:
+  - ../results/reports/lstm_eda_stats.json
+  - ../results/reports/lstm_vocabulary.json
+  - ../results/reports/lstm_data_info.json
+  - ../results/reports/lstm_classification_report.txt
+  - ../results/reports/lstm_final_results.json
+  - ../results/reports/lstm_complete_results.pkl
+
+Logs:
+  - ../logs/lstm_training.log
+
+============================================================
+LSTM MODEL TRAINING COMPLETE!
+============================================================
