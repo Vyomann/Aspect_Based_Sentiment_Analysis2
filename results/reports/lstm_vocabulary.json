@@ -1,5 +1,5 @@
 {
-    "vocab_size": 2351,
+    "vocab_size": 3077,
     "max_length": 100,
     "num_classes": 4,
     "classes": [
@@ -8,7 +8,7 @@
         "neutral",
         "positive"
     ],
-    "train_size": 1650,
-    "val_size": 354,
-    "test_size": 354
+    "train_size": 2585,
+    "val_size": 554,
+    "test_size": 554
 }

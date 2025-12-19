@@ -1,59 +1,59 @@
 {
     "model": "GAT",
-    "vocab_size": 2341,
+    "vocab_size": 3035,
     "embedding_dim": 128,
     "hidden_dim": 128,
     "num_heads": 4,
     "dropout": 0.4,
     "num_epochs_trained": 25,
-    "best_epoch": 17,
-    "train_samples": 2004,
-    "val_samples": 354,
-    "val_accuracy": 70.05649717514125,
-    "val_f1_macro": 0.5041099404619809,
+    "best_epoch": 23,
+    "train_samples": 3139,
+    "val_samples": 554,
+    "val_accuracy": 70.3971119133574,
+    "val_f1_macro": 0.5035214540094903,
     "per_class_f1": {
-        "conflict": 0.0,
-        "negative": 0.7441860465116279,
-        "neutral": 0.5245901639344263,
-        "positive": 0.7476635514018691
+        "conflict": 0.13333333333333333,
+        "negative": 0.5511111111111111,
+        "neutral": 0.5139664804469274,
+        "positive": 0.8156748911465893
     },
     "per_class_precision": {
-        "conflict": 0.0,
-        "negative": 0.75,
-        "neutral": 0.6037735849056604,
-        "positive": 0.6936416184971098
+        "conflict": 1.0,
+        "negative": 0.5961538461538461,
+        "neutral": 0.5476190476190477,
+        "positive": 0.7698630136986301
     },
     "per_class_recall": {
-        "conflict": 0.0,
-        "negative": 0.7384615384615385,
-        "neutral": 0.463768115942029,
-        "positive": 0.8108108108108109
+        "conflict": 0.07142857142857142,
+        "negative": 0.512396694214876,
+        "neutral": 0.4842105263157895,
+        "positive": 0.8672839506172839
     },
     "confusion_matrix": [
         [
-            0,
-            2,
             1,
-            4
+            2,
+            0,
+            11
         ],
         [
             0,
-            96,
-            6,
-            28
+            62,
+            17,
+            42
         ],
         [
             0,
-            16,
-            32,
-            21
+            18,
+            46,
+            31
         ],
         [
             0,
-            14,
-            14,
-            120
+            22,
+            21,
+            281
         ]
     ],
-    "training_time_minutes": 1.2650028705596923
+    "training_time_minutes": 2.1035554011662803
 }

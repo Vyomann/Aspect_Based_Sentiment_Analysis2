@@ -1,5 +1,5 @@
 {
-    "total_samples": 2358,
+    "total_samples": 3693,
     "num_classes": 4,
     "classes": [
         "positive",
@@ -8,28 +8,28 @@
         "conflict"
     ],
     "class_distribution": {
-        "positive": 987,
-        "negative": 866,
-        "neutral": 460,
-        "conflict": 45
+        "positive": 2164,
+        "negative": 805,
+        "neutral": 633,
+        "conflict": 91
     },
     "sentence_length": {
-        "mean": 19.31552162849873,
-        "median": 17.0,
-        "min": 2,
-        "max": 78,
-        "std": 10.620168209966119
+        "mean": 17.587056593555374,
+        "median": 16.0,
+        "min": 1,
+        "max": 69,
+        "std": 9.269868435342081
     },
     "top_10_aspects": {
-        "screen": 58,
-        "price": 55,
-        "use": 53,
-        "battery life": 52,
-        "battery": 45,
-        "keyboard": 43,
-        "programs": 36,
-        "software": 33,
-        "features": 32,
-        "warranty": 31
+        "food": 357,
+        "service": 206,
+        "place": 64,
+        "prices": 60,
+        "menu": 57,
+        "staff": 56,
+        "dinner": 55,
+        "atmosphere": 49,
+        "pizza": 43,
+        "table": 41
     }
 }
